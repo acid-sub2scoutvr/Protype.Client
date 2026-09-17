@@ -125,7 +125,7 @@ public:
         Settings::titleText = (Text*)titleObj->AddComponent(Text::GetType());
 
         Settings::titleText->SetFont(Settings::currentFont);
-        Settings::titleText->SetText("NAME [" + std::to_string(Settings::pageNumber + 1) + "]");
+        Settings::titleText->SetText("PROTYPE CLIENT [" + std::to_string(Settings::pageNumber + 1) + "]");
         Settings::titleText->SetFontSize(1);
         Settings::titleText->SetColor(Settings::textColors[0]);
         Settings::titleText->SetSupportRichText(true);
